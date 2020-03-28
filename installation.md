@@ -13,10 +13,10 @@
   - the folders and files are as follows: 1. bin (cudnn64_7.dll) , 2. include (cudnn.h), 3. lib\x64 (cudnn.lib)
 3. update your path (run the following if path not found in "Environment Variables")
 - open command prompt, then set the path using the following commands:
-SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;%PATH%
-SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;%PATH%
-SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%PATH%
-SET PATH=C:\tools\cuda\bin;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%PATH%
+  - SET PATH=C:\tools\cuda\bin;%PATH%
 4. restart your computer
 
 Note: we are using CUDA v10.0 because we are using TF 2.0.x specific features. Only CUDA v10.0 is supported. 
