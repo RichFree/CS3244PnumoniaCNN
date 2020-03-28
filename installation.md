@@ -47,10 +47,12 @@ Note: we are using CUDA v10.0 because we are using TF 2.0.x specific features. O
 - click on "project.ipnyb"
 
 
-Resources:
+Resources:  
+
 GPU: 
 - https://medium.com/analytics-vidhya/cuda-toolkit-on-windows-10-20244437e036 (outdated)
 - https://www.tensorflow.org/install/gpu (for TF 2.1.x)
+
 Anaconda:
 - environment: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
