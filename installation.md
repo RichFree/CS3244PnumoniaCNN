@@ -38,10 +38,11 @@ Note: we are using CUDA v10.0 because we are using TF 2.0.x specific features. O
 - run: conda update --all
 - run: conda install pip
 8. run: pip install -r requirements.txt
-- note: for GPU users use: requirements-gpu.txt
+- note: for GPU users use: pip install -r requirements-gpu.txt
+- note: for intel cpu users: conda install tensorflow-mkl
 9. run the following
-- conda activate tfenv
-- jupyter notebook
+- run: conda activate tfenv
+- run: jupyter notebook
 10. jupyter notebook
 - a browser instance should open
 - click on "project.ipnyb"
