@@ -8,14 +8,14 @@
   - follow the installation instructions
 - CuDNN: https://developer.nvidia.com/rdp/form/cudnn-download-survey
   - make an account/sign in with Google
-  - take the latest CuDNN for CUDA 10.0 (I stress, for CUDA 10.0) --> e.g. "Download cuDNN v7.6.5 (November 5th, 2019), for CUDA 10.0"
+  - take the latest CuDNN for CUDA 10.1 
   - unzip, then transfer each file in the 3 folders to the corresponding directories found in "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0"
   - the folders and files are as follows: 1. bin (cudnn64_7.dll) , 2. include (cudnn.h), 3. lib\x64 (cudnn.lib)
 3. update your path (run the following if path not found in "Environment Variables")
 - open command prompt, then set the path using the following commands:
-  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;%PATH%
-  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;%PATH%
-  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\extras\CUPTI\libx64;%PATH%
+  - SET PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;%PATH%
   - SET PATH=C:\tools\cuda\bin;%PATH%
 4. restart your computer
 
